@@ -1,4 +1,4 @@
-Package: winbigrf
+Package: bigrf
 Version: 0.1
 Date: 2015-02-17
 Title: Big Random Forests: Classification and Regression Forests for Large Data Sets
