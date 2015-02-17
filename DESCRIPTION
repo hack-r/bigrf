@@ -1,17 +1,18 @@
-Package: bigrf
-Version: 0.1-11
-Date: 2014-05-16
+Package: winbigrf
+Version: 0.1
+Date: 2015-02-17
 Title: Big Random Forests: Classification and Regression Forests for Large Data Sets
 Authors@R: c(person("Aloysius", "Lim", role = c("aut", "cre"),
                     email="aloysius.lim@gmail.com"),
+             person("Jason", "Miller", role = c("aut", "cre"),
+              email = "root@hack-r.com")
              person("Leo", "Breiman", role = "aut"),
-             person("Adele", "Cutler", role = "aut")
-             person("Jason", "Miller", role = "aut"))
+             person("Adele", "Cutler", role = "aut"))
 Maintainer: Aloysius Lim <aloysius.lim@gmail.com>
-Depends: R (>= 2.14), methods, bigmemory
+Depends: R (>= 2.14), methods
 Imports: foreach
 Suggests: MASS, doParallel
-LinkingTo: bigmemory, BH
+LinkingTo: BH
 Description: This is a Windows-compatible hack of Aloysius Lim's implementation 
   of Leo Breiman's and Adele Cutler's
   Random Forest algorithms for classification and regression, with optimizations
@@ -26,6 +27,6 @@ Description: This is a Windows-compatible hack of Aloysius Lim's implementation
   implemented. More functionality and regression trees may be added in the
   future.
 License: GPL-3
-Copyright: 2013-2014 Aloysius Lim
-URL: https://github.com/aloysius-lim/bigrf
-BugReports: https://github.com/aloysius-lim/bigrf/issues
+Copyright: 2015, Jason Miller with credit to the original creator Aloysius Lim
+URL: https://github.com/hack-r/bigrf
+BugReports: https://github.com/hack-r/bigrf/issues
