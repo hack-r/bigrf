@@ -5,14 +5,15 @@ Title: Big Random Forests: Classification and Regression Forests for Large Data 
 Authors@R: c(person("Aloysius", "Lim", role = c("aut", "cre"),
                     email="aloysius.lim@gmail.com"),
              person("Leo", "Breiman", role = "aut"),
-             person("Adele", "Cutler", role = "aut"))
+             person("Adele", "Cutler", role = "aut")
+             person("Jason", "Miller", role = "aut"))
 Maintainer: Aloysius Lim <aloysius.lim@gmail.com>
-OS_type: unix
 Depends: R (>= 2.14), methods, bigmemory
 Imports: foreach
 Suggests: MASS, doParallel
 LinkingTo: bigmemory, BH
-Description: This is an implementation of Leo Breiman's and Adele Cutler's
+Description: This is a Windows-compatible hack of Aloysius Lim's implementation 
+  of Leo Breiman's and Adele Cutler's
   Random Forest algorithms for classification and regression, with optimizations
   for performance and for handling of data sets that are too large to be
   processed in memory. Forests can be built in parallel at two levels. First,
