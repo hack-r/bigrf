@@ -1,4 +1,4 @@
-bigrf
+winbigrf
 =====
 
 This is a Windows-compatible hack of Aloysius Lim's R implementation of Leo Breiman's and Adele Cutler's Random Forest algorithms for classification and regression, with optimizations for performance and for handling of data sets that are too large to be processed in memory. Forests can be built in parallel at two levels. First, trees can be grown in parallel on a single machine using [`foreach`](http://cran.r-project.org/web/packages/foreach/). Second, multiple forests can be built in parallel on multiple machines, then merged into one. Currently, only classification forests with a subset of the functionality in Breiman and Cutler's original code are implemented. More functionality and regression trees may be added in the future.

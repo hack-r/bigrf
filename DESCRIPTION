@@ -5,7 +5,7 @@ Title: Big Random Forests: Classification and Regression Forests for Large Data 
 Authors@R: c(person("Aloysius", "Lim", role = c("aut", "cre"),
                     email="aloysius.lim@gmail.com"),
              person("Jason", "Miller", role = c("aut", "cre"),
-              email = "root@hack-r.com")
+              email = "root@hack-r.com"),
              person("Leo", "Breiman", role = "aut"),
              person("Adele", "Cutler", role = "aut"))
 Maintainer: Aloysius Lim <aloysius.lim@gmail.com>
